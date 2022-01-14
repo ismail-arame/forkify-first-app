@@ -193,9 +193,7 @@ const controlAddRecipe = async function (newRecipe) {
     console.error('*********', err);
   }
 };
-const newFeature = function () {
-  console.log('welcome to the application!');
-};
+
 ///////////////////////
 //Event Handlers in MVC __ Publisher Subscriber Pattern
 
@@ -224,8 +222,6 @@ const init = function () {
   bookmarksView.addHandlerDeleteBookmark(controlDeleteBookmarkFromStorage);
 
   addRecipeView.addHandlerUpload(controlAddRecipe);
-
-  newFeature();
 };
 
 init();
