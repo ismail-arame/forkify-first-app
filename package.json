@@ -16,6 +16,7 @@
   "dependencies": {
     "core-js": "^3.19.3",
     "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.9"
+    "regenerator-runtime": "^0.13.9",
+    "source-map": "^0.8.0-beta.0"
   }
 }
